@@ -1,0 +1,23 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Colossus Innovation LLC
+email: info@colossusinnovation.com
+description:
+  Colossus Innovation is a team of software scaling experts who write about
+  the problems of system elasticity, solve clients' problems of success, and
+  build tools to help entrepreneurs and established companies alike ensure
+  resiliency, availability, and reliability.
+tagline: Ironclad Solutions for Colossal Ideas
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://colossusinnovation.com" # the base hostname & protocol for your site
+twitter_username: ColossusInnov
+github_username:  ColossusInnovation
+
+# Build settings
+markdown: kramdown
