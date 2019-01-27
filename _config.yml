@@ -16,8 +16,35 @@ description:
 tagline: Ironclad Solutions for Colossal Ideas
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://colossusinnovation.com" # the base hostname & protocol for your site
-twitter_username: ColossusInnov
-github_username:  ColossusInnovation
+permalink: /blog/:year/:month/:day/:title:output_ext
+
+# SEO Settings
+twitter:
+  username: ColossusInnov
+  card: summary_large_image
+facebook:
+  publisher: https://www.facebook.com/colossusinnovation
+author:
+  twitter: zachmccormick
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/vertical-for-social.png
+
+logo: /assets/vertical-for-social.png
+social:
+  name: Colossus Innovation LLC
+  links:
+    - https://twitter.com/ColossusInnov
+    - https://www.facebook.com/colossusinnovation
+    - https://www.linkedin.com/company/colossus-innovation-llc
+    - https://github.com/colossusinnovation
+
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Build settings
 markdown: kramdown
