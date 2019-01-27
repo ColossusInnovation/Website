@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-      <div class="outer">
-        {% include header.html %}
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLXNP9W"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="outer">
+    {% include header.html %}
 
-        <div class="page-content">
-          <div class="wrapper">
+    <div class="page-content">
+        <div class="wrapper">
             {{ content }}
-          </div>
         </div>
+    </div>
 
-        {% include footer.html %}
-      </div>
-  </body>
-  
+    {% include footer.html %}
+</div>
+</body>
+
 </html>
