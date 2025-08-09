@@ -9,38 +9,18 @@
 title: Colossus Innovation LLC
 email: info@colossusinnovation.com
 description:
-  Colossus Innovation is a team of software scaling experts who write about
-  the problems of system elasticity, solve clients' problems of success, and
-  build tools to help entrepreneurs and established companies alike ensure
-  resiliency, availability, and reliability.
+  Colossus Innovation specializes in transforming how organizations handle massive
+  scale and technical complexity. I bring proven solutions to your toughest 
+  challenges. Whether you need to modularize a monolith, implement back-pressure 
+  systems to handle massive scale, optimize 6-and-7 figure infrastructure costs, or
+  require expert code review for patent litigation, I deliver the technical 
+  depth that comes from actually building and debugging systems at global 
+  scale.
+
 tagline: Ironclad Solutions for Colossal Ideas
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://colossusinnovation.com" # the base hostname & protocol for your site
+url: "https://colossusinnovation.com" # the base hostname & protocol for your site
 permalink: /blog/:year/:month/:day/:title:output_ext
-
-# SEO Settings
-twitter:
-  username: ColossusInnov
-  card: summary_large_image
-facebook:
-  publisher: https://www.facebook.com/colossusinnovation
-author:
-  twitter: zachmccormick
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: /assets/vertical-for-social.png
-
-logo: /assets/vertical-for-social.png
-social:
-  name: Colossus Innovation LLC
-  links:
-    - https://twitter.com/ColossusInnov
-    - https://www.facebook.com/colossusinnovation
-    - https://www.linkedin.com/company/colossus-innovation-llc
-    - https://github.com/colossusinnovation
-
 
 plugins:
   - jekyll-sitemap
